@@ -9,7 +9,7 @@ const myFunction = (message, duration) => {
 };
 
 
-let execute = async() =>{
+const execute = async() =>{
     
     try {
         const hello = await myFunction("Hello", 3000);
